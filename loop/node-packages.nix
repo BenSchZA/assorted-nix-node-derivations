@@ -31,22 +31,22 @@ let
         sha512 = "VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==";
       };
     };
-    "ansi-styles-4.2.0" = {
+    "ansi-styles-4.2.1" = {
       name = "ansi-styles";
       packageName = "ansi-styles";
-      version = "4.2.0";
+      version = "4.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.2.0.tgz";
-        sha512 = "7kFQgnEaMdRtwf6uSfUnVr9gSGC7faurn+J/Mv90/W+iTtN0405/nLdopfMWwchyxhbGYl6TC4Sccn9TUkGAgg==";
+        url = "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.2.1.tgz";
+        sha512 = "9VGjrMsG1vePxcSweQsN20KY/c4zN0h9fLjqAbwbPfahM3t+NL+M9HC8xeXG2I8pX5NoamTGNuomEUFI7fcUjA==";
       };
     };
-    "async-3.1.0" = {
+    "async-3.1.1" = {
       name = "async";
       packageName = "async";
-      version = "3.1.0";
+      version = "3.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/async/-/async-3.1.0.tgz";
-        sha512 = "4vx/aaY6j/j3Lw3fbCHNWP0pPaTCew3F6F3hYyl/tHs/ndmV1q7NW9T5yuJ2XAGwdQrP+6Wu20x06U4APo/iQQ==";
+        url = "https://registry.npmjs.org/async/-/async-3.1.1.tgz";
+        sha512 = "X5Dj8hK1pJNC2Wzo2Rcp9FBVdJMGRR/S7V+lH46s8GVFhtbo5O4Le5GECCF/8PISVdkUA6mMPvgz7qTTD1rf1g==";
       };
     };
     "braces-3.0.2" = {
@@ -364,13 +364,13 @@ let
         sha512 = "sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==";
       };
     };
-    "p-limit-2.2.1" = {
+    "p-limit-2.2.2" = {
       name = "p-limit";
       packageName = "p-limit";
-      version = "2.2.1";
+      version = "2.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/p-limit/-/p-limit-2.2.1.tgz";
-        sha512 = "85Tk+90UCVWvbDavCLKPOLC9vvY8OwEX/RtKF+/1OADJMVlFfEHOiMTPVyxg7mk/dKa+ipdHm0OUkTvCpMTuwg==";
+        url = "https://registry.npmjs.org/p-limit/-/p-limit-2.2.2.tgz";
+        sha512 = "WGR+xHecKTr7EbUEhyLSh5Dube9JtdiG78ufaeLxTgpudf/20KqyMioIUZJAezlTIi6evxuoUs9YXc11cU+yzQ==";
       };
     };
     "p-locate-3.0.0" = {
@@ -409,22 +409,22 @@ let
         sha1 = "ce0ebeaa5f78cb18925ea7d810d7b59b010fd515";
       };
     };
-    "picomatch-2.1.1" = {
+    "picomatch-2.2.1" = {
       name = "picomatch";
       packageName = "picomatch";
-      version = "2.1.1";
+      version = "2.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.1.1.tgz";
-        sha512 = "OYMyqkKzK7blWO/+XZYP6w8hH0LDvkBvdvKukti+7kqYFCiEAk+gI3DWnryapc0Dau05ugGTy0foQ6mqn4AHYA==";
+        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.2.1.tgz";
+        sha512 = "ISBaA8xQNmwELC7eOjqFKMESB2VIqt4PPDD0nsS95b/9dZXvVKOlz9keMSnoGGKcOHXfTvDD6WMaRoSc9UuhRA==";
       };
     };
-    "prompt-sync-4.1.7" = {
+    "prompt-sync-4.2.0" = {
       name = "prompt-sync";
       packageName = "prompt-sync";
-      version = "4.1.7";
+      version = "4.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/prompt-sync/-/prompt-sync-4.1.7.tgz";
-        sha512 = "EPdLWdZCgNAxF8haGg1CKOL/F5KZiRtuqgoWc1EGefX+fX+5qsB8vI52+qzl1jgADO6AiLaIcioicxRgQEy5xA==";
+        url = "https://registry.npmjs.org/prompt-sync/-/prompt-sync-4.2.0.tgz";
+        sha512 = "BuEzzc5zptP5LsgV5MZETjDaKSWfchl5U9Luiu8SKp7iZWD5tZalOxvNcZRwv+d2phNFr8xlbxmFNcRKfJOzJw==";
       };
     };
     "require-directory-2.1.1" = {
@@ -630,8 +630,8 @@ in
     dependencies = [
       sources."@types/color-name-1.1.1"
       sources."ansi-regex-4.1.0"
-      sources."ansi-styles-4.2.0"
-      sources."async-3.1.0"
+      sources."ansi-styles-4.2.1"
+      sources."async-3.1.1"
       sources."braces-3.0.2"
       sources."camelcase-5.3.1"
       sources."chalk-3.0.0"
@@ -665,13 +665,13 @@ in
       sources."meta-exec-1.4.2"
       sources."micromatch-4.0.2"
       sources."ms-2.1.2"
-      sources."p-limit-2.2.1"
+      sources."p-limit-2.2.2"
       sources."p-locate-3.0.0"
       sources."p-try-2.2.0"
       sources."parse-passwd-1.0.0"
       sources."path-exists-3.0.0"
-      sources."picomatch-2.1.1"
-      sources."prompt-sync-4.1.7"
+      sources."picomatch-2.2.1"
+      sources."prompt-sync-4.2.0"
       sources."require-directory-2.1.1"
       sources."require-main-filename-2.0.0"
       sources."resolve-dir-1.0.1"

@@ -244,10 +244,10 @@ in
   truffle = nodeEnv.buildNodePackage {
     name = "truffle";
     packageName = "truffle";
-    version = "5.1.2";
+    version = "5.1.14";
     src = fetchurl {
-      url = "https://registry.npmjs.org/truffle/-/truffle-5.1.2.tgz";
-      sha512 = "VfNdtk/dh8zj9onE/q8A7SSrFyqPqz61W+sx5FrUK++BbSE7N09/6z2F/VORuDykPmFaujtYKt8iNoD3Htfeww==";
+      url = "https://registry.npmjs.org/truffle/-/truffle-5.1.14.tgz";
+      sha512 = "6rIy335igwHOR0a8xEtPZdlCPBAvDcMIuVQVWAVtPqDy7xMTxGm4A0C4YRsEvZUc5V8GfCBfQb/GQ5AXlXI+6w==";
     };
     dependencies = [
       sources."app-module-path-2.2.0"
